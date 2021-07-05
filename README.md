@@ -17,6 +17,10 @@ This is a collaborated work with my workmate: Maryam Alabdulhadi.
     export TURTLEBOT3_MODEL=waffle_pi
     roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
     
+    
+  ![TB3_nav](https://user-images.githubusercontent.com/63375443/124506481-6909fe80-ddd4-11eb-9114-efeb3e6fb6eb.png)
+
+    
 **TurtleBot3 has to be correctly located on the map with the LDS sensor data that neatly overlaps the displayed map, So:**
 
 1- I will estimate Initial Pose Thtough pressing on 2D Pose Estimate button in the RViz menu.
@@ -30,15 +34,22 @@ This is a collaborated work with my workmate: Maryam Alabdulhadi.
     export TURTLEBOT3_MODEL=waffle_pi
     roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
     
-4- After that I Move the robot back and forth a littl bit to collect the surrounding environment information and narrow down the estimated locatiton of m robot
+![TB3_initial](https://user-images.githubusercontent.com/63375443/124506668-d74ec100-ddd4-11eb-9a19-3d49c8665ac8.png)
+
+    
+4- After that I Move the robot back and forth a littl bit to collect the surrounding environment information and narrow down the estimated locatiton of the robot
+
+![TB3_final](https://user-images.githubusercontent.com/63375443/124506531-82ab4600-ddd4-11eb-9bbc-9c09bd02d318.png)
+
 
 5- Terminate the keyboard teleoperation node using Ctrl + C
 
 **Set Navigation Goal**
 
-Here I clicked on the 2D Nav Goal button in the RViz menu then I startes chosing the destinaion of my robor putting in mind what dirction it will be facing using the green arrow.
+Here I clicked on the 2D Nav Goal button in the RViz menu then I startes chosing the destinaion of my robot putting in mind what dirction it will be facing using the green arrow.
 
-**Check the final results for more information.**
+**Videos:**
+
 
 **Thank you for reading!!**
  

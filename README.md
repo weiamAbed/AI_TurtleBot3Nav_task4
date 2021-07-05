@@ -50,6 +50,11 @@ Here I clicked on the 2D Nav Goal button in the RViz menu then I startes chosing
 
 **Videos:**
 
+https://user-images.githubusercontent.com/63375443/124508024-b63b9f80-ddd7-11eb-916b-8b3862621a34.MOV
+
+
+https://user-images.githubusercontent.com/63375443/124508034-bd62ad80-ddd7-11eb-8187-7623f05a3348.MOV
+
 
 **Thank you for reading!!**
  
